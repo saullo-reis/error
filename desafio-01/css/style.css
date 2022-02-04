@@ -1,0 +1,76 @@
+
+.background-photo1{
+    background-image: url(/src/4.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.background-photo2{
+    background-image: url(/src/1.jpg);
+    background-size: cover;
+    display: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.background-photo3{
+    background-image: url(/src/2.jpg);
+    background-size: cover;
+    display: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.background-photo4{
+    background-image: url(/src/3.jpg);
+    background-size: cover;
+    display: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+a img{
+    width: 50px;
+    height: 50px;
+}
+
+.arrow-left img{
+    margin: 30px;
+    transform: rotate(180deg)
+}
+
+.arrow-right img{
+    position: relative;
+    left: 200px;
+}
+
+.text{
+    background-color: #fff;
+    margin-left: 80px;
+    padding: 30px;
+    width: 320px;
+    height: 400px;
+}
+
+.text h2,p,a{
+    margin: 40px 0 ;
+}
+
+.background-photo1 .text a{
+    color:#C50000;
+}
+.background-photo2 .text a{
+    color:#D9DD10;
+}
+.background-photo3 .text a{
+    color:#A63A17;
+}
+.background-photo4 .text a{
+    color:#10ACDD;
+}
